@@ -13,6 +13,7 @@ repos:
   patches:
   - patches/addons_OCA/queue
   path: addons_OCA/queue
+  sha: 12cde929e55327281580efab1c6f3d7dce585403
   type: integrated
   url: https://github.com/OCA/queue
 - branch: ${VERSION}
