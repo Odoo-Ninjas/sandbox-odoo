@@ -23,5 +23,6 @@ repos:
   url: https://github.com/marcwimmer/odoo-anonymize.git
 - branch: ${VERSION}
   path: addons_tools/cleardb
+  sha: e2b2e504e2cfd56c18f134ed7205c5dfee33f693
   type: integrated
   url: https://github.com/marcwimmer/odoo-cleardb.git
