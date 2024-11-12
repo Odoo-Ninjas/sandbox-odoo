@@ -1,0 +1,18 @@
+{
+    "application": False,
+    "author": "Marc Wimmer (marc@zebroo.de)",
+    "auto_install": True,
+    "conflicts": [],
+    "external_dependencies": {"bin": [], "python": ["names", "arrow"]},
+    "css": [],
+    "data": ["views/fields_form.xml"],
+    "demo_xml": [],
+    "depends": ["base"],
+    "installable": True,
+    "js": [],
+    "name": "anonymize",
+    "test": [],
+    "version": "1.0",
+    "assets": {"web.assets_qweb": []},
+    "demo": [],
+}
