@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<templates xml:space="preserve">
+    <t t-name="mrp_custom_tablet_view.View">
+        <Layout display="props.display" className="'h-100 overflow-auto'">
+            <t t-component="props.Renderer" model="model"/>
+        </Layout>
+    </t>
+    <t t-name="mrp_custom_tablet_view.Renderer">
+        <t t-set="record" t-value="props.model.record"/>
+        <table class="production">
+            <tr>
+                <th>
+                    <t t-out="record.name"/>
+                </th>
+            </tr>
+            <tr>
+                <td>
+                    <TextareaAutoSave model="record._name" id="record.id" fieldname="'notes'" value="record.notes"/>
+                </td>
+            </tr>
+        </table>
+        <PdfViewerProduction pdf="record.current_workorder_id_worksheet"/>
+    </t>
+</templates>
