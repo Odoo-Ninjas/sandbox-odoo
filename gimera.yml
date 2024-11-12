@@ -18,6 +18,7 @@ repos:
   url: https://github.com/OCA/queue
 - branch: ${VERSION}
   path: addons_tools/anonymize
+  sha: 0f89202c5d7f4f9eca0834982408296dd22fba5f
   type: integrated
   url: https://github.com/marcwimmer/odoo-anonymize.git
 - branch: ${VERSION}
