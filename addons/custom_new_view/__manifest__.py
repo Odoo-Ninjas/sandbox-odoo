@@ -4,9 +4,6 @@
     "author": "Marc Wimmer (marc@zebroo.de)",
     "depends": [
         "mrp",
-        "mrp_batchorder",
-        "mrp_product_field_formlocation",
-        "sales_pricelist_hpn_stack_logic",
     ],
     "data": ["views/production_form.xml", "views/view.xml"],
     "external_dependencies": {"python": [], "bin": []},

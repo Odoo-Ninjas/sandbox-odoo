@@ -1,17 +1,18 @@
 {
     "version": 17.0,
     "server-wide-modules": [
-        "web", "queue_job",
+        "web",
+        "queue_job"
     ],
     "install": [
         "custom_new_view",
+        "display_name"
     ],
-    "uninstall": [
-    ],
+    "uninstall": [],
     "addons_paths": [
         "odoo/odoo/addons",
         "odoo/addons",
         "addons_tools",
-        "addons",
+        "addons"
     ]
 }
