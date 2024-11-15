@@ -6,7 +6,7 @@ repos:
   patches:
   - patches/odooodoo
   path: odoo
-  sha: bb40cf9efc87929e16671538aa68b191dffd06b3
+  sha: a6207271de14682226683ccb50c3261b17b23100
   type: integrated
   url: https://github.com/odoo/odoo
 - branch: ${VERSION}
